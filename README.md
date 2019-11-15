@@ -38,7 +38,7 @@ Verification completed successfully. No actual metrics sent to CloudWatch.
 [root@ip-172-31-15-12 aws-scripts-mon]# ./mon-put-instance-data.pl --mem-used-incl-cache-buff --mem-util --mem-used --mem-avail
 
 Successfully reported metrics to CloudWatch. Reference Id: a6b0416f-8385-4bfc-8236-bcd7ccade1f5
-```
+````
 
 ##### To set a cron schedule for metrics reported to CloudWatch, start editing the crontab using the crontab -e command. Add the following command to report memory and disk space utilization to CloudWatch every five minutes: 
 
