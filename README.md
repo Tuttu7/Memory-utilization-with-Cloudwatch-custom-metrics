@@ -46,3 +46,4 @@ Successfully reported metrics to CloudWatch. Reference Id: a6b0416f-8385-4bfc-82
 */5 * * * * /home/ec2-user/aws-scripts-mon/mon-put-instance-data.pl --mem-used-incl-cache-buff --mem-util --disk-space-util --disk-path=/ --from-cron
 ```
 ![Memory available status](cl_1.jpg)
+![](cl_2.jpg)
