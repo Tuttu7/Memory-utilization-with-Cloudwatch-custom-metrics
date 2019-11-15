@@ -10,6 +10,7 @@ yum install -y perl-Switch perl-DateTime perl-Sys-Syslog perl-LWP-Protocol-https
 
 ```
 To download, install, and configure the monitoring scripts :
+
 curl https://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-1.2.2.zip -O
 
 unzip CloudWatchMonitoringScripts-1.2.2.zip
@@ -23,6 +24,7 @@ cd aws-scripts-mon
 
 ```
 [root@ip-172-31-15-12 aws-scripts-mon]# ./mon-put-instance-data.pl --mem-util --verify --verbose
+
 MemoryUtilization: 11.6693074103636 (Percent)
 No credential methods are specified. Trying default IAM role.
 Using IAM role <Admin_access>
